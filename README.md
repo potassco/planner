@@ -49,8 +49,38 @@ It is implemented simply adding the following subprogram:
 ```
 
 
-## Examples
+## A Simple Example
+
+$ cat examples/example.lp 
+#program base.
+
+{a;b;c}.
+
+#program step(k).
+
+{ c(k) }.
+q(k) :- c(k).
+
+#program check(k).
+
+:- not c(5), query(k).
+
+
+$ planner.py examples/example.lp 
+planner.py version 0.0.1
+Solving...
+Solving...
+Answer: 1
+c(5) q(5) query(5)
+SATISFIABLE
+
+Models       : 1+
+Calls        : 2
+Time         : 0.002s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.000s
+
+
+## More Examples
+
 Replace in the Examples [here](https://github.com/potassco/plasp/blob/master/encodings/strips/README.md) `clingo - incmode.lp` by `planner.py -`.
-
-
 
