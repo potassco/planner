@@ -9,6 +9,8 @@ Implements Algorithms A, B and C from [J. Rintanen](https://users.ics.aalto.fi/r
 
 Type ``--help`` for help.
 
+The `planner` requires Python (version 2.7 is tested), and [the python module of clingo](https://github.com/potassco/clingo).
+
 ## Description
 The input consists of subprograms `base`, `check(t)` , and `step(t)`.
 This is also the format of the clingo script [incmode-py.lp](https://github.com/potassco/clingo/blob/master/examples/clingo/iclingo/incmode-py.lp).
