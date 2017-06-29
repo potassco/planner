@@ -51,6 +51,7 @@ It is implemented simply adding the following subprogram:
 
 ## A Simple Example
 
+```bash
 $ cat examples/example.lp 
 #program base.
 
@@ -78,7 +79,7 @@ Models       : 1+
 Calls        : 2
 Time         : 0.002s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
 CPU Time     : 0.000s
-
+```
 
 ## More Examples
 
