@@ -48,7 +48,7 @@ It is implemented simply adding the following subprogram:
 
 
 ## Examples
-Replace in the Examples [here](https://github.com/potassco/plasp/blob/master/encodings/strips/README.md) `clingo incmode.lp` by `planner.py`.
+Replace in the Examples [here](https://github.com/potassco/plasp/blob/master/encodings/strips/README.md) `clingo - incmode.lp` by `planner.py -`.
 
 
 
