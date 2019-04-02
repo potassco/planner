@@ -5,7 +5,7 @@
 ```bash
 $ planner.py [options] [files]
 ```
-Implements Algorithms A, B and C from [J. Rintanen](https://users.ics.aalto.fi/rintanen/jussi/satplan.html). 
+Implements Algorithms A, B and C from [J. Rintanen](https://users.aalto.fi/~rintanj1/satplan.html). 
 
 Type ``--help`` for help.
 
